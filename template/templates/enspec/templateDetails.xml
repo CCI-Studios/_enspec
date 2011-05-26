@@ -22,7 +22,9 @@
     </files>
  
     <positions>
-
+		<position>top</position>
+		<position>sidebar</position>
+		<position>bottom</position>
     </positions>
  
     <params>

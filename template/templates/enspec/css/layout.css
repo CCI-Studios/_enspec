@@ -1,0 +1,56 @@
+#top > div, #mainmenu > div, #header > div,
+#content > div, #bottom > div { margin: 0 auto;
+	width: 940px; 
+}
+
+#top {
+	background: red; /* fixme */
+	height: 132px; /* fixme */
+}
+
+#top > div {
+	background: black; /* fixme */
+}
+
+#mainmenu {
+	
+}
+
+#header {
+	
+}
+
+#content {
+	
+}
+
+#component {
+	
+}
+
+#sidebar_right {
+	
+}
+
+#bottom {
+	font-size: 10px;
+}
+
+#bottom .left { 
+	color: white; 
+}
+
+#bottom .right {
+	color: white;
+	
+}
+
+#bottom .right a,
+#bottom .right span {
+	color: white;
+	text-decoration: none;
+}
+
+#bottom .right a:hover {
+	
+}
