@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+    <name>Enspec</name>
+    <version>1.0</version>
+    <creationDate>May 26, 2011</creationDate>
+    <author>Darren Murray</author>
+    <authorEmail>dmurray@ccistudios.com</authorEmail>
+    <authorUrl>http://www.ccistudios.com</authorUrl>
+    <copyright>Copyright 2011</copyright>
+    <license>GNU v3</license>
+    <description>
+        <![CDATA[
+        ]]>
+    </description>
+ 
+    <files>
+		<filename>index.html</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+    </files>
+ 
+    <positions>
+
+    </positions>
+ 
+    <params>
+    </params>
+</install>
