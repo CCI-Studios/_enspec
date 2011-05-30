@@ -1,4 +1,9 @@
 html { 
-	background: black; 
+	background: black url(../images/html_bg.jpg) top center repeat-x; 
+}
+
+body {
+	background: url(../images/body_bg.jpg) top center no-repeat; 
+	color: white;
 	font-family: Arial;
- }
+}

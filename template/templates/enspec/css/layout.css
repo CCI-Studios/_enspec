@@ -1,15 +1,15 @@
-#top > div, #mainmenu > div, #header > div,
-#content > div, #bottom > div { margin: 0 auto;
+#mainmenu > div, #header > div,
+#content > div, #footer > div, #wrapper{ 
+	margin: 0 auto;
 	width: 940px; 
 }
 
 #top {
-	background: red; /* fixme */
-	height: 132px; /* fixme */
+	margin: 0 auto;
 }
 
 #top > div {
-	background: black; /* fixme */
+	background: url(../images/top_bg.png) repeat-x;
 }
 
 #mainmenu {
@@ -20,37 +20,48 @@
 	
 }
 
+#wrapper {
+	background: url(../images/content_bg.png);
+}
+
 #content {
-	
+	background: url(../images/sidebarseparator.png) repeat-y scroll 260px 50%;
+	width: 690px;
 }
 
 #component {
-	
+	padding: 20px 10px;
 }
 
-#sidebar_right {
-	
+#sidebar {
+	float: right;
+	padding: 50px 0;
+	width: 250px;
 }
 
-#bottom {
+#footer {
 	font-size: 10px;
 }
 
-#bottom .left { 
+#footer > div > div > div {
+	background: url(../images/footer_hr.png) bottom repeat-x;
+}
+
+#footer .left { 
 	color: white; 
 }
 
-#bottom .right {
+#footer .right {
 	color: white;
 	
 }
 
-#bottom .right a,
-#bottom .right span {
+#footer .right a,
+#footer .right span {
 	color: white;
 	text-decoration: none;
 }
 
-#bottom .right a:hover {
+#footer .right a:hover {
 	
 }

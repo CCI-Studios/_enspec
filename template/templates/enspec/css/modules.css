@@ -17,6 +17,8 @@
 }
 #top .moduletable li > a:hover,
 #top .moduletable li > span:hover { color: #d02c2b; }
+#top .moduletable li > a:hover.separator,
+#top .moduletable li > span:hover.separator { color: #cd39c8; }
 /* top menu ends */
 
 /* main menu begins */
@@ -24,7 +26,7 @@
 .moduletable_menu ul { 
 	float: right; 
 	list-style-type: none; 
-	margin: 0 0 1px 0; 
+	margin: 0 0 2px 0; 
 	text-transform: uppercase;
  }
 .moduletable_menu li { 
@@ -38,7 +40,7 @@
 	display: block;
 	line-height: 30px;
 	margin: 0 0 1px 0;
-	padding: 7px 15px 8px;
+	padding: 7px 0px 8px 30px;
 	text-decoration: none;
 }
 .moduletable_menu li > a:hover,
@@ -46,17 +48,19 @@
 /* main menu ends */
 
 /* bottom menu begins */
-#bottom .moduletable { 
+#footer .moduletable { 
 	font-size: 10px;  
 }
-#bottom .moduletable ul { padding-bottom: 10px; text-align: center; }
-#bottom .moduletable li { display: inline; }
-#bottom .moduletable li > a, 
-#bottom .moduletable li > span { 
+#footer .moduletable ul { padding-bottom: 20px; text-align: center; }
+#footer .moduletable li { display: inline; }
+#footer .moduletable li > a, 
+#footer .moduletable li > span { 
 	color: #cd39c8; 
 	padding: 0 3px; 
 	text-decoration: none; 
 }
-#bottom .moduletable li > a:hover, 
-#bottom .moduletable li > span:hover { color: #d02c2b; }
+#footer .moduletable li > a:hover, 
+#footer .moduletable li > span:hover { color: #d02c2b; }
+#footer .moduletable li > a:hover.separator, 
+#footer .moduletable li > span:hover.separator { color: #cd39c8; }
 /* bottom menu ends */

@@ -24,7 +24,11 @@
     <positions>
 		<position>top</position>
 		<position>sidebar</position>
-		<position>bottom</position>
+		<position>bottom1</position>
+		<position>bottom2left</position>
+		<position>bottom2right</position>
+		<position>footer</position>
+		<position>hidden</position>
     </positions>
  
     <params>
