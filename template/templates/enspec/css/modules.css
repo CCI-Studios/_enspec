@@ -3,9 +3,7 @@
 /* top menu begins */
 #top .moduletable { font-size: 10px; }
 #top .moduletable ul { 
-	float: right; 
 	list-style-type: none; 
-	padding-top: 18px; 
 	text-transform: uppercase; 
 }
 #top .moduletable li { display: inline; }
@@ -24,9 +22,7 @@
 /* main menu begins */
 .moduletable_menu { font-size: 12px; }
 .moduletable_menu ul { 
-	float: right; 
 	list-style-type: none; 
-	margin: 0 0 2px 0; 
 	text-transform: uppercase;
  }
 .moduletable_menu li { 
@@ -44,7 +40,7 @@
 	text-decoration: none;
 }
 .moduletable_menu li > a:hover,
-.moduletable_menu li > span:hover { color:#d02c2b; }
+.moduletable_menu li > span:hover { color: #d02c2b; }
 /* main menu ends */
 
 /* bottom menu begins */

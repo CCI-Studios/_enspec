@@ -3,25 +3,27 @@
 	font-size: 10px;
 }
 
-.logo {
-	padding: 30px 0 20px;
-}
-
 body {
 	color: white;
-	
+	font-size: 12px;
+	line-height: 1.5em;
 }
 
 h1, h2, h3 {
-	font-variant: uppercase;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 h1 {
 	color: #cd39c8;
-	font-size: 14px;
+	font-size: 20px;
 }
 
 h2 {
 	color: #d02c2b;
-	font-size: 12px;
+	font-size: 14px;
+}
+
+#logo {
+	float: left;
 }
