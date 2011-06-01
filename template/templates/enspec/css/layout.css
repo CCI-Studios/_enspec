@@ -1,33 +1,36 @@
-#mainmenu > div, #header > div,
+#header > div, #top > div,
 #footer > div, #wrapper { 
 	margin: 0 auto;
 	width: 940px; 
 }
 
-#top { margin: 0 auto; margin-bottom: 25px; }
+#top { 
+	background: url(../images/top_bg.png) repeat-x; 
+	margin-bottom: 25px; 
+}
 
-#top > div { background: url(../images/top_bg.png) repeat-x; }
-
-#mainmenu { }
+#top > div {
+	padding: 25px 0 20px;
+	position: relative;
+}
 
 #header { padding: 20px 8px 20px 0; }
 
 #wrapper { background: url(../images/content_bg.png); padding: 0 10px; }
 
-#content { 
-	background: url(../images/sidebarseparator.png) repeat-y scroll 690px 50%;
+#content > div { 
+	background: url(../images/sidebarseparator.png) repeat-y scroll 680px 50%;
 }
 
 #component { 
+	float: left;
 	padding-right: 10px;
-	width: 680px; 
+	width: 670px; 
 }
 
 #component img { padding: 5px 20px 10px 0px; }
 
-#sidebar {
-	float: left;
-}
+#sidebar { float: left; padding: 50px 25px; width: 200px;}
 
 #footer { font-size: 10px; }
 

@@ -1,24 +1,5 @@
 .moduletable { }
 
-/* top menu begins */
-#top .moduletable { font-size: 10px; }
-#top .moduletable ul { 
-	list-style-type: none; 
-	text-transform: uppercase; 
-}
-#top .moduletable li { display: inline; }
-#top .moduletable li > a,
-#top .moduletable li > span { 
-	color: #cd39c8; 
-	padding: 0 2px; 
-	text-decoration: none;
-}
-#top .moduletable li > a:hover,
-#top .moduletable li > span:hover { color: #d02c2b; }
-#top .moduletable li > a:hover.separator,
-#top .moduletable li > span:hover.separator { color: #cd39c8; }
-/* top menu ends */
-
 /* main menu begins */
 .moduletable_menu { font-size: 12px; }
 .moduletable_menu ul { 
@@ -28,7 +9,6 @@
 .moduletable_menu li { 
 	float: left;
 	margin: 0;
-	position: relative;
 }
 .moduletable_menu li > a,
 .moduletable_menu li > span { 
@@ -36,27 +16,55 @@
 	display: block;
 	line-height: 30px;
 	margin: 0 0 1px 0;
-	padding: 7px 0px 8px 30px;
+	padding: 7px 0px 8px 20px;
 	text-decoration: none;
 }
 .moduletable_menu li > a:hover,
 .moduletable_menu li > span:hover { color: #d02c2b; }
+
 /* main menu ends */
 
-/* bottom menu begins */
-#footer .moduletable { 
-	font-size: 10px;  
-}
-#footer .moduletable ul { padding-bottom: 20px; text-align: center; }
-#footer .moduletable li { display: inline; }
-#footer .moduletable li > a, 
-#footer .moduletable li > span { 
+/* small menu begins */
+.moduletable_menu.smallmenu li > a, 
+.moduletable_menu.smallmenu li > span {
+	background: url(../images/menu_separator.png) 7px center no-repeat;
 	color: #cd39c8; 
-	padding: 0 3px; 
-	text-decoration: none; 
+	padding-left: 15px;
 }
-#footer .moduletable li > a:hover, 
-#footer .moduletable li > span:hover { color: #d02c2b; }
-#footer .moduletable li > a:hover.separator, 
-#footer .moduletable li > span:hover.separator { color: #cd39c8; }
-/* bottom menu ends */
+.moduletable_menu.smallmenu li:first-child > a {
+	background: none;
+	padding-left: 0;
+}
+.moduletable_menu.smallmenu li > a:hover, 
+.moduletable_menu.smallmenu li > span:hover {
+	color: #d02c2b;
+}
+
+/* small menu ends */
+
+/* top menu's begin */
+#top .moduletable_menu.smallmenu {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#top .moduletable_menu.smallmenu li {
+	font-size: 10px;
+}
+
+#top .moduletable_menu.largemenu {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+/* top menu ends */
+
+/* footer menu begins */
+#footer .moduletable_menu.smallmenu { 
+	font-size: 10px; 
+}
+#footer .moduletable_menu.smallmenu ul { 
+	text-transform: capitalize;
+}
+/* footer menu ends */
+

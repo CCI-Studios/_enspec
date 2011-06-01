@@ -9,29 +9,24 @@
 
 <body>
 	<div id="top"><div>
-		<div id="mainmenu"><div>
-			<jdoc:include type="modules" name="top" style="xhtml" />
-			<div class="clear"></div>
-		</div></div>
+		<jdoc:include type="modules" name="top" style="xhtml" />
+		<div class="clear"></div>
 	</div></div>
 	
 	<div id="wrapper"><div>
-		<div id="header">
-			<jdoc:include type="modules" name="header" style="xhtml" />
-			<div class="clear"></div>
-		</div>
-		
 		<div id="content"><div>
 			<div id="component">
 				<jdoc:include type="component" />
-				<div class="clear"></div>	
+				<div class="clear"></div>
 			</div>	
 			<div id="sidebar">
 				<jdoc:include type="modules" name="sidebar" style="xhtml" />
 				<div class="clear"></div>
 			</div>
+			
+			<div class="clear"></div>			
 		</div></div>		
-	</div><div class="clear"></div></div>
+	</div></div>
 	
 	<div id="footer"><div>
 		<div>

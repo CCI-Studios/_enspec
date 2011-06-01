@@ -9,19 +9,23 @@ body {
 	line-height: 1.5em;
 }
 
+p { margin-top: 0; }
+
 h1, h2, h3 {
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
-h1 {
+.home h1 {
 	color: #cd39c8;
 	font-size: 20px;
+	padding: 30px;
 }
 
-h2 {
+h1 {
 	color: #d02c2b;
 	font-size: 14px;
+	padding: 20px 10px 10px 0;
 }
 
 #logo {
