@@ -25,10 +25,8 @@
 		<position>top</position>
 		<position>header</position>
 		<position>sidebar</position>
-		<position>bottom1</position>
-		<position>bottom2left</position>
-		<position>bottom2right</position>
-		<position>footer</position>
+		<position>bottom</position>
+		<position>bottom_menu</position>
 		<position>hidden</position>
     </positions>
  
