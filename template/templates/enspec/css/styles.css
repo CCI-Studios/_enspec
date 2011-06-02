@@ -22,7 +22,11 @@ h1, h2, h3 {
 .home h1 {
 	color: #cd39c8;
 	font-size: 20px;
-	padding: 30px;
+	padding: 20px;
+}
+
+.home h2 {
+	padding: 20px;
 }
 
 h1 {
