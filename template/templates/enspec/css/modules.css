@@ -13,7 +13,7 @@
 .moduletable_menu li > a,
 .moduletable_menu li > span { 
 	color: #FFFFFF; 
-	display: block;
+	display: inline;
 	line-height: 30px;
 	margin: 0 0 1px 0;
 	padding: 7px 0px 8px 20px;
@@ -41,6 +41,9 @@
 }
 
 /* small menu ends */
+#header .moduletable {
+	padding: 28px 28px 28px 0;
+}
 
 /* top menu's begin */
 #top .moduletable_menu.smallmenu {
@@ -59,12 +62,13 @@
 }
 /* top menu ends */
 
-/* footer menu begins */
-#footer .moduletable_menu.smallmenu { 
+/* bottom menu begins */
+#bottom_menu .moduletable_menu {
+}
+#bottom_menu .moduletable_menu.smallmenu { 
 	font-size: 10px; 
 }
-#footer .moduletable_menu.smallmenu ul { 
+#bottom_menu .moduletable_menu.smallmenu ul { 
 	text-transform: capitalize;
 }
-/* footer menu ends */
-
+/* bottom menu ends */
