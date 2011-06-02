@@ -34,7 +34,7 @@
 
 #footer { font-size: 10px; }
 
-#footer > div > div > div {
+#footer > div > div {
 	background: url(../images/footer_hr.png) bottom repeat-x;
 }
 
@@ -47,5 +47,3 @@
 	color: white;
 	text-decoration: none;
 }
-
-#footer .right a:hover { }
