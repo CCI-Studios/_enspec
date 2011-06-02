@@ -14,7 +14,13 @@
 	position: relative;
 }
 
-#header { padding: 20px 8px 20px 0; }
+#header { 
+	background: url(../images/footer_hr.png) bottom repeat-x;
+	padding-bottom: 35px;
+}
+#header img {
+	padding: 20px;
+}
 
 #wrapper { background: url(../images/content_bg.png); padding: 0 10px; }
 
@@ -24,7 +30,7 @@
 
 #component { 
 	float: left;
-	padding-right: 10px;
+	padding: 0px 10px 25px 0px;
 	width: 670px; 
 }
 
@@ -32,15 +38,20 @@
 
 #sidebar { float: left; padding: 50px 25px; width: 200px;}
 
-#footer { font-size: 10px; }
+#bottom {
+	background: url(../images/footer_hr.png) top repeat-x;
+	padding: 25px 10px 25px 0;
+	width: 670px;
+}
+#bottom_menu {
+	background: url(../images/footer_hr.png) bottom repeat-x;
+}
+
+#footer { font-size: 10px; color: white;}
 
 #footer > div > div {
 	background: url(../images/footer_hr.png) bottom repeat-x;
 }
-
-#footer .left { color: white; }
-
-#footer .right { color: white; }
 
 #footer .right a,
 #footer .right span {
