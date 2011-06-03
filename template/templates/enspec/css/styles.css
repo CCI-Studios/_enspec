@@ -19,22 +19,31 @@ h1, h2, h3 {
 	font-weight: bold;
 }
 
-.home h1 {
-	color: #cd39c8;
-	font-size: 20px;
-	padding: 20px;
-}
-
-.home h2 {
-	padding: 20px;
-}
-
 h1 {
 	color: #d02c2b;
 	font-size: 14px;
 	padding: 20px 10px 10px 0;
 }
 
+#header h1 {
+	color: #cd39c8;
+	font-size: 20px;
+	padding: 20px 20px 20px 30px;
+}
+
+#header h2 {
+	padding-left: 30px;
+}
+
+#header .moduletable > img {
+	padding-left: 30px;
+}
+
 #logo {
 	float: left;
+}
+
+
+#bottom h2 {
+	padding-bottom: 20px;
 }
