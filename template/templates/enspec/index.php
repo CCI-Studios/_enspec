@@ -37,18 +37,20 @@ if ($menu)
 				<jdoc:include type="modules" name="sidebar" style="xhtml" />
 				<div class="clear"></div>
 			</div>	
+		<div class="clear"></div>
+		
 		<?php if($this->countModules("bottom")):?>
 			<div id="bottom">
 				<jdoc:include type="modules" name="bottom" style="xhtml" />
 				<div class="clear"></div>
 			</div>
 		<?php endif; ?>	
-		</div></div>
 		
-		<div id="bottom_menu">
-			<jdoc:include type="modules" name="bottom_menu" style="xhtml" />
-			<div class="clear"></div>
-		</div>
+			<div id="bottom_menu">
+				<jdoc:include type="modules" name="bottom_menu" style="xhtml" />
+				<div class="clear"></div>
+			</div>
+		</div></div>
 		
 		<div id="footer"><div>
 			<div class="left">&copy; <span class="purple">EN</span><span class="red">SPEC</span> Inc. <?php echo date ('Y')?>. All Rights Reserved.</div>
