@@ -62,7 +62,18 @@
 }
 /* top menu ends */
 
-/* bottom menu begins */
+/* bottom begins */
+#bottom .moduletable img {
+	padding: 0 26px 0 0;
+}
+#bottom .moduletable a,
+#bottom .moduletable span { 
+	color: #d02c2b;
+	text-decoration: none;
+}
+/* bottom ends */
+
+/* bottom_menu begins */
 #bottom_menu .moduletable_menu {
 }
 #bottom_menu .moduletable_menu.smallmenu { 
@@ -71,4 +82,4 @@
 #bottom_menu .moduletable_menu.smallmenu ul { 
 	text-transform: capitalize;
 }
-/* bottom menu ends */
+/* bottom_menu ends */
