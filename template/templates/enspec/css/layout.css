@@ -30,21 +30,56 @@
 
 #component { 
 	float: left;
-	padding: 0px 10px 25px 0px;
-	width: 670px; 
+	padding: 0px 10px 25px 10px;
+	width: 630px; 
 }
 
-#component img { padding: 5px 20px 10px 0px; }
+.home #component h1 {
+	color: #d02c2b;
+	padding-left: 0px;
+	font-size: 14px;
+}
 
-#sidebar { float: left; padding: 50px 25px; width: 200px;}
+#component img { padding: 5px 10px 10px 0px; }
+
+#sidebar { 
+	background: url(../images/enspecacronym.png) no-repeat; 
+	float: left; 
+	margin-top: 50px;
+	padding: 50px 25px;
+	min-height: 170px; /* fixme */
+	width: 230px;
+}
+
+.home #sidebar h3 {
+	color: #d02c2b;
+	padding-bottom: 20px;
+}
+
+.home #sidebar {
+	background: none;
+	font-size: 14px;
+	margin: 20px;
+	padding: 0px;	
+}
+
+.home #sidebar img {
+	padding: 5px;
+}
 
 #bottom {
 	background: url(../images/footer_hr.png) top repeat-x;
-	padding: 25px 10px 25px 0;
-	width: 670px;
+	padding: 0px 10px 0px 0px;
+	width: 600px;
 }
 #bottom_menu {
 	background: url(../images/footer_hr.png) bottom repeat-x;
+}
+
+#bottom .moduletable {
+	float: left;
+	margin: 36px 10px;
+	width: 280px;
 }
 
 #footer { font-size: 10px; color: white;}
