@@ -25,7 +25,7 @@
 #wrapper { background: url(../images/content_bg.png); padding: 0 10px; }
 
 #content > div { 
-	background: url(../images/sidebarseparator.png) repeat-y scroll 680px 50%;
+	background: url(../images/sidebarseparator.png) repeat-y scroll 640px 50%;
 }
 
 #component { 
