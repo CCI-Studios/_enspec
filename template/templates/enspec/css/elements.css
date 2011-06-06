@@ -6,4 +6,39 @@ body {
 	background: url(../images/body_bg.jpg) top center no-repeat; 
 	color: white;
 	font-family: Arial;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+p, ol, ul, table { 
+	margin: 1em 0; 
+}
+
+p:first-child, ol:first-child, 
+ul:first-child, table:first-child { margin-top: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0.3em 0 0.7em;
+}
+
+h1 {
+	color: #d02c2b;
+	font-size: 14px;
+	margin: 0 0 1em; /* fixme */
+}
+
+h3 {
+	font-size: 12px;
+}
+
+#component img { padding: 0 10px;} /* fixme */
+#component img.right {
+	margin: 0 0 10px 10px; /* fixme */
+	padding: 0;
+}
+#component img.left {
+	margin: 0 10px 10px 0; /* fixme */
+	padding: 0;
 }
