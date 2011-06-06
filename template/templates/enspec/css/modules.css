@@ -5,40 +5,37 @@
 .moduletable_menu ul { 
 	list-style-type: none; 
 	text-transform: uppercase;
+	margin: 0;
  }
 .moduletable_menu li { 
-	float: left;
+	display: inline-block; /* fixme ie crap, may need zoom */
+	*display: inline;
 	margin: 0;
+	padding: 7px 0px 8px 20px;
 }
 .moduletable_menu li > a,
 .moduletable_menu li > span { 
 	color: #FFFFFF; 
-	display: inline;
-	line-height: 30px;
-	margin: 0 0 1px 0;
-	padding: 7px 0px 8px 20px;
 	text-decoration: none;
 }
 .moduletable_menu li > a:hover,
-.moduletable_menu li > span:hover { color: #d02c2b; }
+.moduletable_menu li > span:hover { color: #d02c2b }
 
 /* main menu ends */
 
 /* small menu begins */
-.moduletable_menu.smallmenu li > a, 
-.moduletable_menu.smallmenu li > span {
+.moduletable_menu.smallmenu li {
 	background: url(../images/menu_separator.png) 7px center no-repeat;
-	color: #cd39c8; 
+	font-size: 10px;
 	padding-left: 15px;
 }
-.moduletable_menu.smallmenu li:first-child > a {
-	background: none;
-	padding-left: 0;
-}
+.moduletable_menu.smallmenu li:first-child{ background: none; }
+
+.moduletable_menu.smallmenu li > a, 
+.moduletable_menu.smallmenu li > span { color: #cd39c8; }
+
 .moduletable_menu.smallmenu li > a:hover, 
-.moduletable_menu.smallmenu li > span:hover {
-	color: #d02c2b;
-}
+.moduletable_menu.smallmenu li > span:hover { color: #d02c2b; }
 
 /* small menu ends */
 #header .moduletable {
@@ -51,9 +48,6 @@
 	top: 0;
 	right: 0;
 }
-#top .moduletable_menu.smallmenu li {
-	font-size: 10px;
-}
 
 #top .moduletable_menu.largemenu {
 	position: absolute;
@@ -62,9 +56,18 @@
 }
 /* top menu ends */
 
+/* sidebar begins*/
+#sidebar .moduletable a,
+#sidebar .moduletable span {
+	color: #d02c2b;
+	text-decoration: none;
+}
+
+/* sidebar ends */
+
 /* bottom begins */
 #bottom .moduletable img {
-	padding: 0 26px 0 0;
+	padding: 0 26px 26px 0;
 }
 #bottom .moduletable a,
 #bottom .moduletable span { 
@@ -74,12 +77,11 @@
 /* bottom ends */
 
 /* bottom_menu begins */
-#bottom_menu .moduletable_menu {
+#bottom_menu .moduletable_menu { 
+	padding: 10px 0 10px; /* fixme padding-left */
+	text-align: center;
 }
-#bottom_menu .moduletable_menu.smallmenu { 
-	font-size: 10px; 
-}
-#bottom_menu .moduletable_menu.smallmenu ul { 
+#bottom_menu .moduletable_menu ul { 
 	text-transform: capitalize;
 }
 /* bottom_menu ends */
