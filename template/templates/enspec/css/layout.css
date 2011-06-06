@@ -1,5 +1,5 @@
 #header > div, #top > div,
-#footer > div, #wrapper { 
+#footer > div, #header, #wrapper { 
 	margin: 0 auto;
 	width: 940px; 
 }
@@ -22,16 +22,23 @@
 	padding: 20px;
 }
 
-#wrapper { background: url(../images/content_bg.png); padding: 0 10px; }
-
-#content > div { 
-	background: url(../images/sidebarseparator.png) repeat-y scroll 640px 50%;
+#wrapper { 
+	background: url(../images/content_bg.png);
+	padding: 20px 10px 0; 
 }
 
-#component { 
+#content { 
+	background: url(../images/sidebarseparator.png) 3px 710px no-repeat;
+}
+
+#asdf {
 	float: left;
-	padding: 0px 10px 25px 10px;
-	width: 630px; 
+	padding-right: 30px;
+	width: 680px;
+}
+
+#component {
+	
 }
 
 .home #component h1 {
@@ -40,37 +47,28 @@
 	font-size: 14px;
 }
 
-#component img { padding: 5px 10px 10px 0px; }
-
-#sidebar { 
-	background: url(../images/enspecacronym.png) no-repeat; 
+#sidebar {
 	float: left; 
-	margin-top: 50px;
-	padding: 50px 25px;
-	min-height: 170px; /* fixme */
-	width: 230px;
+	font-size: 12px;
+	margin: 50px 0 0;
+	padding: 0 0 0 30px;
+	width: 200px;
 }
 
 .home #sidebar h3 {
 	color: #d02c2b;
-	padding-bottom: 20px;
+	margin-top: 0;
+	padding: 0px 10px 10px 0;
 }
 
-.home #sidebar {
-	background: none;
-	font-size: 14px;
-	margin: 20px;
-	padding: 0px;	
-}
+.home #sidebar { margin: 20px 0 0; }
 
 .home #sidebar img {
-	padding: 5px;
+	padding: 5px 0 40px 15px;
 }
 
 #bottom {
 	background: url(../images/footer_hr.png) top repeat-x;
-	padding: 0px 10px 0px 0px;
-	width: 600px;
 }
 #bottom_menu {
 	background: url(../images/footer_hr.png) bottom repeat-x;
@@ -78,8 +76,12 @@
 
 #bottom .moduletable {
 	float: left;
-	margin: 36px 10px;
-	width: 280px;
+	margin: 36px 0 10px 10px; /* fixme bottom padding */
+	width: 305px; /* fixme */
+}
+
+#bottom .moduletable:first-child {
+	margin-left: 0px;
 }
 
 #footer { font-size: 10px; color: white;}
