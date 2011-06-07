@@ -19,7 +19,10 @@
 	text-decoration: none;
 }
 .moduletable_menu li > a:hover,
-.moduletable_menu li > span:hover { color: #d02c2b }
+.moduletable_menu li > span:hover { 
+	background: url(..images/hover_img.png) right top no-repeat;
+	color: #d02c2b;
+}
 
 /* main menu ends */
 
@@ -38,9 +41,6 @@
 .moduletable_menu.smallmenu li > span:hover { color: #d02c2b; }
 
 /* small menu ends */
-#header .moduletable {
-	padding: 28px 28px 28px 0;
-}
 
 /* top menu's begin */
 #top .moduletable_menu.smallmenu {
@@ -54,31 +54,29 @@
 	bottom: 0;
 	right: 0;
 }
-/* top menu ends */
 
-/* sidebar begins*/
-#sidebar .moduletable a,
-#sidebar .moduletable span {
-	color: #d02c2b;
-	text-decoration: none;
+#top .moduletable_menu.largemenu ul {
+	padding-bottom: 10px;
 }
 
-/* sidebar ends */
+#top .moduletable_menu.largemenu li {
+	padding: 12px 20px 0 0;
+}
+
+#top .moduletable_menu.largemenu li:hover {
+	background: url(../images/hover_img.png) right top no-repeat;
+}
+/* top menu ends */
 
 /* bottom begins */
 #bottom .moduletable img {
-	padding: 0 26px 26px 0;
-}
-#bottom .moduletable a,
-#bottom .moduletable span { 
-	color: #d02c2b;
-	text-decoration: none;
+	padding: 0 26px 25px 0;
 }
 /* bottom ends */
 
 /* bottom_menu begins */
 #bottom_menu .moduletable_menu { 
-	padding: 10px 0 10px; /* fixme padding-left */
+	padding: 20px 0;
 	text-align: center;
 }
 #bottom_menu .moduletable_menu ul { 
