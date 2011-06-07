@@ -7,3 +7,16 @@
 .purple { color: #cd39c8; }
 	
 .red { color: #d02c2b; }
+
+.readmore {
+	color: #d02c2b;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 20px 0 0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.readmore:hover {
+	background: url(../images/hover_img.png) right top no-repeat;
+}
