@@ -18,8 +18,13 @@
 	background: url(../images/footer_hr.png) bottom repeat-x;
 	padding-bottom: 35px;
 }
+
 #header img {
-	padding: 20px;
+	padding: 0 20px;
+}
+
+.home #header p {
+	padding-left: 30px;
 }
 
 #wrapper { 
@@ -28,7 +33,8 @@
 }
 
 #content { 
-	background: url(../images/sidebarseparator.png) 3px 710px no-repeat;
+	background: url(../images/sidebarseparator.png) 710px no-repeat;
+	margin-top: 30px;
 }
 
 #container {
@@ -38,20 +44,18 @@
 	width: 680px;
 }
 
-#component {
-	
+.home #component {
+	padding: 25px 0;
 }
 
 .home #component h1 {
 	color: #d02c2b;
-	padding-left: 0px;
 	font-size: 14px;
 }
 
 #sidebar {
 	float: left; 
 	font-size: 12px;
-	margin: 50px 0 0;
 	padding: 0 0 0 30px;
 	width: 200px;
 }
@@ -62,10 +66,11 @@
 	padding: 0px 10px 10px 0;
 }
 
-.home #sidebar { margin: 20px 0 0; }
-
 .home #sidebar img {
-	padding: 5px 0 40px 15px;
+	padding: 5px 9px 40px 0;
+}
+.home #sidebar img:first-child {
+	padding-right: 0;
 }
 
 #bottom {
