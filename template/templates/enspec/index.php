@@ -28,7 +28,7 @@ if ($menu)
 		<?php endif; ?>
 		
 		<div id="content">
-			<div id="asdf">
+			<div id="container">
 				<div id="component">
 					<jdoc:include type="component" />
 					<div class="clear"></div>
