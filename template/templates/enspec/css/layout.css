@@ -85,7 +85,11 @@
 	margin-left: 0px;
 }
 
-#footer { font-size: 10px; color: white;}
+#footer { 
+	color: white;
+	font-size: 10px; 
+	padding-top: 20px;
+}
 
 #footer > div > div {
 	background: url(../images/footer_hr.png) bottom repeat-x;
