@@ -77,8 +77,8 @@
 
 #bottom .moduletable {
 	float: left;
-	margin: 36px 0 10px 10px; /* fixme bottom padding */
-	width: 305px; /* fixme */
+	margin: 36px 0 10px 10px;
+	width: 335px;
 }
 
 #bottom .moduletable:first-child {
