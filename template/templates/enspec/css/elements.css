@@ -26,19 +26,18 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	color: #d02c2b;
 	font-size: 14px;
-	margin: 0 0 1em; /* fixme */
+	margin: 20px 0;
 }
 
 h3 {
 	font-size: 12px;
 }
 
-#component img { padding: 0 10px;} /* fixme */
 #component img.right {
-	margin: 0 0 10px 10px; /* fixme */
+	margin: 0 0 10px 40px;
 	padding: 0;
 }
 #component img.left {
-	margin: 0 10px 10px 0; /* fixme */
+	margin: 0 40px 10px 0;
 	padding: 0;
 }
