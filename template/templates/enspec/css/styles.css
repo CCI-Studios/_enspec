@@ -6,19 +6,11 @@
 #header h1 {
 	color: #cd39c8;
 	font-size: 20px;
-	padding: 20px 20px 20px 30px;
-}
-
-#header h2 {
-	padding-left: 30px;
+	padding: 0 20px 0 30px;
 }
 
 #header .moduletable > img {
 	padding-left: 30px;
-}
-
-#bottom h2 {
-	padding-bottom: 20px;
 }
 
 #logo {
